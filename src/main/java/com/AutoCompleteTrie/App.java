@@ -114,7 +114,7 @@ public class App {
         Trie t = new Trie();            
             
         String textName = args[0];
-       	File fileName = new File("C:\\Users\\orkun\\OneDrive\\Desktop\\" + textName);
+       	File fileName = new File("C:\\you need to write the path of dictionary.txt here!!\\" + textName);
         
         BufferedReader br = new BufferedReader(new FileReader(fileName));
         ArrayList<String> dictionary = new ArrayList<String>();
